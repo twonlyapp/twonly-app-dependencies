@@ -129,7 +129,6 @@ def integrate_package(folder_name, data):
     # print(f"Done! Cleaned {folder_name}.")
 
 pubspec = {
-    "dependencies": {},
     "dependency_overrides": {},
 }
 
@@ -137,8 +136,8 @@ pubspec = {
 # 2. Iterate through each entry
 for folder_name, data in config.items():
 
-    pubspec["dependencies"][folder_name] = {}
-    pubspec["dependencies"][folder_name]["path"] = f"./dependencies/{folder_name}"
+    pubspec["dependency_overrides"][folder_name] = {}
+    pubspec["dependency_overrides"][folder_name]["path"] = f"./dependencies/{folder_name}"
     # update = ["libsignal_protocol_dart"]
     # if folder_name not in update:
     #     continue

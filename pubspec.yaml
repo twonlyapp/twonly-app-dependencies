@@ -1,8 +1,14 @@
-dependencies:
+dependency_overrides:
+  adaptive_number:
+    path: ./dependencies/adaptive_number
   dots_indicator:
     path: ./dependencies/dots_indicator
+  ed25519_edwards:
+    path: ./dependencies/ed25519_edwards
   hashlib:
     path: ./dependencies/hashlib
+  hashlib_codecs:
+    path: ./dependencies/hashlib_codecs
   introduction_screen:
     path: ./dependencies/introduction_screen
   libsignal_protocol_dart:
@@ -11,20 +17,13 @@ dependencies:
     path: ./dependencies/lottie
   mutex:
     path: ./dependencies/mutex
-  photo_view:
-    path: ./dependencies/photo_view
-  qr_dart:
-    path: ./dependencies/qr_dart
-dependency_overrides:
-  adaptive_number:
-    path: ./dependencies/adaptive_number
-  ed25519_edwards:
-    path: ./dependencies/ed25519_edwards
-  hashlib_codecs:
-    path: ./dependencies/hashlib_codecs
   optional:
     path: ./dependencies/optional
+  photo_view:
+    path: ./dependencies/photo_view
   pointycastle:
     path: ./dependencies/pointycastle
+  qr:
+    path: ./dependencies/qr
   x25519:
     path: ./dependencies/x25519
