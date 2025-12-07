@@ -1,0 +1,20 @@
+name: introduction_screen
+description: Introduction/Onboarding package for flutter app with some customizations possibilities
+version: 4.0.0
+repository: https://github.com/pyozer/introduction_screen
+issue_tracker: https://github.com/pyozer/introduction_screen/issues
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  collection: ^1.18.0
+  dots_indicator: ^4.0.1
+  flutter_keyboard_visibility_temp_fork: ^0.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

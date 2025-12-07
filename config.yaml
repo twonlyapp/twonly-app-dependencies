@@ -1,0 +1,42 @@
+qr_dart:
+  git: https://github.com/kevmoo/qr.dart.git
+
+mutex:
+  git: https://github.com/hoylen/dart-mutex.git
+
+photo_view:
+  git: https://github.com/bluefireteam/photo_view.git
+
+introduction_screen:
+  git: https://github.com/Pyozer/introduction_screen.git
+
+dots_indicator:
+  git: https://github.com/Pyozer/dots_indicator.git
+
+hashlib:
+  git: https://github.com/bitanon/hashlib.git
+  replace:
+    -
+      - "abstract class MACHashBase"
+      - "abstract mixin class MACHashBase"
+  dependencies:
+    hashlib_codecs:
+      git: https://github.com/bitanon/hashlib_codecs.git
+    
+lottie:
+  git: https://github.com/xvrh/lottie-flutter.git
+
+
+libsignal_protocol_dart:
+  git: https://github.com/MixinNetwork/libsignal_protocol_dart.git
+  dependencies:
+    adaptive_number:
+      git: https://github.com/lemoony/adaptive_number_dart
+    ed25519_edwards:
+      git: https://github.com/Tougee/ed25519.git
+    optional:
+      git: https://github.com/tonio-ramirez/optional.dart.git
+    pointycastle:
+      git: https://github.com/bcgit/pc-dart.git
+    x25519:
+      git: https://github.com/Tougee/curve25519.git

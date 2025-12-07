@@ -1,0 +1,30 @@
+dependencies:
+  dots_indicator:
+    path: ./dependencies/dots_indicator
+  hashlib:
+    path: ./dependencies/hashlib
+  introduction_screen:
+    path: ./dependencies/introduction_screen
+  libsignal_protocol_dart:
+    path: ./dependencies/libsignal_protocol_dart
+  lottie:
+    path: ./dependencies/lottie
+  mutex:
+    path: ./dependencies/mutex
+  photo_view:
+    path: ./dependencies/photo_view
+  qr_dart:
+    path: ./dependencies/qr_dart
+dependency_overrides:
+  adaptive_number:
+    path: ./dependencies/adaptive_number
+  ed25519_edwards:
+    path: ./dependencies/ed25519_edwards
+  hashlib_codecs:
+    path: ./dependencies/hashlib_codecs
+  optional:
+    path: ./dependencies/optional
+  pointycastle:
+    path: ./dependencies/pointycastle
+  x25519:
+    path: ./dependencies/x25519
