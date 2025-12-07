@@ -1,5 +1,8 @@
-qr:
-  git: https://github.com/kevmoo/qr.dart.git
+qr_flutter: 
+  git: https://github.com/theyakka/qr.flutter.git
+  dependencies:
+    qr:
+      git: https://github.com/kevmoo/qr.dart.git
 
 mutex:
   git: https://github.com/hoylen/dart-mutex.git

@@ -25,5 +25,7 @@ dependency_overrides:
     path: ./dependencies/pointycastle
   qr:
     path: ./dependencies/qr
+  qr_flutter:
+    path: ./dependencies/qr_flutter
   x25519:
     path: ./dependencies/x25519
