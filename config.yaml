@@ -9,11 +9,10 @@ photo_view:
 
 introduction_screen:
   git: https://github.com/Pyozer/introduction_screen.git
-  # dependencies:
+  dependencies:
     # flutter_keyboard_visibility_temp_fork:
-
-dots_indicator:
-  git: https://github.com/Pyozer/dots_indicator.git
+    dots_indicator:
+      git: https://github.com/Pyozer/dots_indicator.git
 
 hashlib:
   git: https://github.com/bitanon/hashlib.git
