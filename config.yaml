@@ -44,3 +44,6 @@ libsignal_protocol_dart:
       git: https://github.com/bcgit/pc-dart.git
     x25519:
       git: https://github.com/Tougee/curve25519.git
+
+hand_signature:
+  git: https://github.com/RomanBase/hand_signature.git

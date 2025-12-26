@@ -5,6 +5,8 @@ dependency_overrides:
     path: ./dependencies/dots_indicator
   ed25519_edwards:
     path: ./dependencies/ed25519_edwards
+  hand_signature:
+    path: ./dependencies/hand_signature
   hashlib:
     path: ./dependencies/hashlib
   hashlib_codecs:
