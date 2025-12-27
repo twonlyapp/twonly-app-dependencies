@@ -50,3 +50,9 @@ hand_signature:
 
 flutter_sharing_intent:
   git: https://github.com/bhagat-techind/flutter_sharing_intent.git
+
+restart_app:
+  git: https://github.com/gabrimatic/restart_app
+
+no_screenshot:
+  git: https://github.com/FlutterPlaza/no_screenshot.git

@@ -21,6 +21,8 @@ dependency_overrides:
     path: ./dependencies/lottie
   mutex:
     path: ./dependencies/mutex
+  no_screenshot:
+    path: ./dependencies/no_screenshot
   optional:
     path: ./dependencies/optional
   photo_view:
@@ -31,5 +33,7 @@ dependency_overrides:
     path: ./dependencies/qr
   qr_flutter:
     path: ./dependencies/qr_flutter
+  restart_app:
+    path: ./dependencies/restart_app
   x25519:
     path: ./dependencies/x25519
