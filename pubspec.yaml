@@ -5,6 +5,8 @@ dependency_overrides:
     path: ./dependencies/dots_indicator
   ed25519_edwards:
     path: ./dependencies/ed25519_edwards
+  flutter_sharing_intent:
+    path: ./dependencies/flutter_sharing_intent
   hand_signature:
     path: ./dependencies/hand_signature
   hashlib:

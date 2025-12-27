@@ -47,3 +47,6 @@ libsignal_protocol_dart:
 
 hand_signature:
   git: https://github.com/RomanBase/hand_signature.git
+
+flutter_sharing_intent:
+  git: https://github.com/bhagat-techind/flutter_sharing_intent.git

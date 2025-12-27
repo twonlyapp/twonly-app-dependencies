@@ -42,7 +42,7 @@ def integrate_package(folder_name, data):
     global config_lock
 
     repo_url = data['git']
-    keep_list = ["lib", "test", "LICENSE", "pubspec.yaml"]
+    keep_list = ["lib", "test", "LICENSE", "pubspec.yaml", "android", "ios"]
     if "keep" in data:
         keep_list += [item.rstrip('/') for item in data['keep']]
     
